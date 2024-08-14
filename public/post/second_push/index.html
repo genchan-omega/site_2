@@ -12,7 +12,7 @@
     <link rel="stylesheet" href='http://localhost:1313/site_2/css/syntax.css' />
     <title>second_push - My New Hugo Site</title>
     
-    <link rel="icon" type="image/x-icon" href='/images/github-mark.png'>
+    <link rel="icon" type="image/x-icon" href='/site_2/images/github-mark.png'>
     
     <meta name="theme-color" content="#1e2327">
 
@@ -125,13 +125,13 @@
               <div class="d-none d-md-block">
                 <a class="avatar mr-2 flex-shrink-0" href="http://localhost:1313/site_2/">
                   <img class=" avatar-user"
-                    src="/images/avatar.png/"
+                    src="/site_2/images/avatar.png/"
                     width="32" height="32"></a>
               </div>
               <div class="d-flex flex-column">
                 <h1 class="break-word f3 text-normal mb-md-0 mb-1">
                   <span class="author">
-                    <a href="http://localhost:1313/site_2/">MeiK</a>
+                    <a href="http://localhost:1313/site_2/">genchan_omega</a>
                   </span>
                   <span class="path-divider">/</span>
                   <strong class="css-truncate css-truncate-target mr-1" style="max-width: 410px">
@@ -192,18 +192,18 @@
                 <article class="markdown-body entry-content container-lg"><h1 id="markdown記法-チートシート">Markdown記法 チートシート</h1>
 <h2 id="code-の挿入">Code の挿入</h2>
 <h3 id="code-block">code block</h3>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;stdio.h&gt;</span><span style="color:#75715e">
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(<span style="color:#66d9ef">void</span>){
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">int</span> a<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;%d&#34;</span>, a);
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;%p&#34;</span>, <span style="color:#f92672">&amp;</span>a);
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">int</span> <span style="color:#f92672">*</span>b;
-</span></span><span style="display:flex;"><span>  b<span style="color:#f92672">=&amp;</span>a;
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;%d&#34;</span>, <span style="color:#f92672">*</span>b);
-</span></span><span style="display:flex;"><span>  <span style="color:#a6e22e">printf</span>(<span style="color:#e6db74">&#34;%p&#34;</span>, b);
-</span></span><span style="display:flex;"><span>}
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c" data-lang="c"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;stdio.h&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">void</span><span class="p">){</span>
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="n">a</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;%d&#34;</span><span class="p">,</span> <span class="n">a</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;%p&#34;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">a</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="kt">int</span> <span class="o">*</span><span class="n">b</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="n">b</span><span class="o">=&amp;</span><span class="n">a</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;%d&#34;</span><span class="p">,</span> <span class="o">*</span><span class="n">b</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nf">printf</span><span class="p">(</span><span class="s">&#34;%p&#34;</span><span class="p">,</span> <span class="n">b</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><h3 id="code-span">code span</h3>
 <p><code>#ffce44</code></p>
 <p><code>`rgb(255,0,0)`</code></p>
@@ -218,10 +218,10 @@
 <p><del>打ち消し</del></p>
 <h3 id="details">Details</h3>
 <!-- raw HTML omitted -->
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rb" data-lang="rb"><span style="display:flex;"><span>puts <span style="color:#e6db74">&#39;Hello, World&#39;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rb" data-lang="rb"><span class="line"><span class="cl"><span class="nb">puts</span> <span class="s1">&#39;Hello, World&#39;</span>
 </span></span></code></pre></div><!-- raw HTML omitted -->
 <!-- raw HTML omitted -->
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-rb" data-lang="rb"><span style="display:flex;"><span>puts <span style="color:#e6db74">&#39;Hello, World&#39;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-rb" data-lang="rb"><span class="line"><span class="cl"><span class="nb">puts</span> <span class="s1">&#39;Hello, World&#39;</span>
 </span></span></code></pre></div><!-- raw HTML omitted -->
 <h2 id="list">List</h2>
 <h3 id="unordered-list">Unordered List</h3>
