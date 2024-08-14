@@ -2,3 +2,24 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'github-style'
+
+[params]
+  author = "MeiK"
+  description = "In solitude, where we are least alone."
+  github = "genchan_omega"
+  facebook = "genchan_omega"
+  twitter = "genchan_omega"
+  linkedin = "genchan_omega"
+  instagram = "genchan_omega"
+  tumblr = "genchan_omega"
+  email = "s225180y@st.go.tuat.ac.jp"
+  url = "https://genchan_omega"
+  keywords = "blog, google analytics"
+  rss = true
+  lastmod = true
+  favicon = "/images/github-mark.png"
+  avatar = "/images/avatar.png/"
+  headerIcon = "/images/github-mark-white.png"
+  location = "China"
+  userStatusEmoji = "😀"
+  enableGitalk = false
