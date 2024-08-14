@@ -2,6 +2,7 @@ baseURL = 'https://genchan-omega.github.io/site_2/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'github-style'
+staticDir = ["static"]
 
 [params]
   author = "MeiK"
